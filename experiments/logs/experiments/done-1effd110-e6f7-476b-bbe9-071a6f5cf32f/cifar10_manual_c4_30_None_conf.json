@@ -1,0 +1,100 @@
+{
+    "fl_configuration": {
+        "number_of_participants": 4,
+        "fl_training_rounds": 30,
+        "model_id": "cifar10_resnet",
+        "train_aggregation_method_id": "fed_avg",
+        "evaluation_aggregation_method_id": "client_based",
+        "training_hyperparameters": {
+            "metrics": [
+                "accuracy",
+                "precision",
+                "recall"
+            ],
+            "train_rounds": 5,
+            "train_test_split": 0.7,
+            "optimizer": "adam",
+            "loss_function": "categorical_crossentropy",
+            "lr": null
+        },
+        "training_method_id": "base",
+        "evaluation_method_id": "base",
+        "client_contribution_configuration": {
+            "client_contribution_method_id": "",
+            "server_dataset": true
+        }
+    },
+    "data_configuration": {
+        "dataset_id": "cifar10_manual",
+        "data_modification": {
+            "id": "manual",
+            "params": {}
+        },
+        "data_preprocessing": [
+            {
+                "client_id": "all",
+                "preprocessing_template_id": "cifar10",
+                "params": {
+                    "duration": "1"
+                }
+            }
+        ]
+    },
+    "architecture": {
+        "decentralized_training": false,
+        "vertical_fl": false,
+        "communication_type": "rest"
+    },
+    "deployment_location": {
+        "default": {
+            "dummy":"dummy"
+        },
+        "server": {
+            "dummy":"dummy"
+        }
+    },
+    "behaviour": {
+        "server_behavior_id": [],
+        "communicator_server_behavior_id": [],
+        "client_behavior_id": {},
+        "communicator_client_behavior_id": {
+            "0": [
+                {
+                    "round": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27
+                    ],
+                    "behaviour_template_id": "client_failure",
+                    "params": {}
+                }
+            ]
+        }
+    }
+    
+}

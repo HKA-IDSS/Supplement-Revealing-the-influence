@@ -1,0 +1,3027 @@
+{
+  "9": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007586282257293417,
+          "r2_score": 0.8967499626884013,
+          "mae": 0.041575543129561646
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007586282257293417,
+          "r2_score": 0.8967499626884013,
+          "mae": 0.041575543129561646
+        }
+      }
+    ],
+    "9_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.0038294284604489803,
+          "r2_score": 0.9503765106201172,
+          "mae": 0.02970394864678383
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.017535079270601273,
+          "r2_score": 0.8471952676773071,
+          "mae": 0.07116392999887466
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.0037042046897113323,
+          "r2_score": 0.9422804117202759,
+          "mae": 0.027590427547693253
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.0034860200248658657,
+          "r2_score": 0.9370998740196228,
+          "mae": 0.026552777737379074
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.005158029962331057,
+          "r2_score": 0.9325224757194519,
+          "mae": 0.03514772653579712
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006425592117011547,
+          "r2_score": 0.8292427659034729,
+          "mae": 0.04165337607264519
+        }
+      }
+    ]
+  },
+  "8": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007753261765906922,
+          "r2_score": 0.893404085616477,
+          "mae": 0.04259889908782498
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007753261765906922,
+          "r2_score": 0.893404085616477,
+          "mae": 0.04259889908782498
+        }
+      }
+    ],
+    "8_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.003998338710516691,
+          "r2_score": 0.9481877088546753,
+          "mae": 0.031180361285805702
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.017723258584737778,
+          "r2_score": 0.8455554246902466,
+          "mae": 0.07260426878929138
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.003804060397669673,
+          "r2_score": 0.9407244324684143,
+          "mae": 0.02836708351969719
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.003527456196025014,
+          "r2_score": 0.9363522529602051,
+          "mae": 0.027119668200612068
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.0051644728519022465,
+          "r2_score": 0.9324381947517395,
+          "mae": 0.03550869971513748
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006919355131685734,
+          "r2_score": 0.8161212205886841,
+          "mae": 0.04341539740562439
+        }
+      }
+    ]
+  },
+  "7": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007584983093691294,
+          "r2_score": 0.8957095276075377,
+          "mae": 0.042023683775449946
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007584983093691294,
+          "r2_score": 0.8957095276075377,
+          "mae": 0.042023683775449946
+        }
+      }
+    ],
+    "7_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.0039300923235714436,
+          "r2_score": 0.9490720629692078,
+          "mae": 0.030537240207195282
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.017164304852485657,
+          "r2_score": 0.8504262566566467,
+          "mae": 0.07186072319746017
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.003633006475865841,
+          "r2_score": 0.9433898329734802,
+          "mae": 0.027301648631691933
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.003443940309807658,
+          "r2_score": 0.9378591775894165,
+          "mae": 0.02655032090842724
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.005310565698891878,
+          "r2_score": 0.9305270314216614,
+          "mae": 0.03599157556891441
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006718114484101534,
+          "r2_score": 0.8214690685272217,
+          "mae": 0.04207583889365196
+        }
+      }
+    ]
+  },
+  "6": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.00797863368618476,
+          "r2_score": 0.8919538944972227,
+          "mae": 0.04339648969848231
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.00797863368618476,
+          "r2_score": 0.8919538944972227,
+          "mae": 0.04339648969848231
+        }
+      }
+    ],
+    "6_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.003984001465141773,
+          "r2_score": 0.9483734965324402,
+          "mae": 0.03080790303647518
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.018715875223279,
+          "r2_score": 0.8369055390357971,
+          "mae": 0.07692097127437592
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.003599395975470543,
+          "r2_score": 0.9439135789871216,
+          "mae": 0.027279267087578773
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.003461624961346388,
+          "r2_score": 0.9375400543212891,
+          "mae": 0.026537880301475525
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.005479940678924322,
+          "r2_score": 0.9283112287521362,
+          "mae": 0.03678895905613899
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.0067575788125395775,
+          "r2_score": 0.8204203844070435,
+          "mae": 0.04238243028521538
+        }
+      }
+    ]
+  },
+  "5": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.008406849399302264,
+          "r2_score": 0.8873489796883463,
+          "mae": 0.04489905014617571
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.008406849399302264,
+          "r2_score": 0.8873489796883463,
+          "mae": 0.04489905014617571
+        }
+      }
+    ],
+    "5_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.0041252621449530125,
+          "r2_score": 0.9465429782867432,
+          "mae": 0.032345425337553024
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.020314626395702362,
+          "r2_score": 0.8229736685752869,
+          "mae": 0.07981136441230774
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.003550419583916664,
+          "r2_score": 0.9446767568588257,
+          "mae": 0.02786492370069027
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.0034364955499768257,
+          "r2_score": 0.9379934668540955,
+          "mae": 0.027135394513607025
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.005614709109067917,
+          "r2_score": 0.926548182964325,
+          "mae": 0.03807096928358078
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006986240390688181,
+          "r2_score": 0.8143437504768372,
+          "mae": 0.04394106939435005
+        }
+      }
+    ]
+  },
+  "4": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.008729103350480907,
+          "r2_score": 0.8869563298782722,
+          "mae": 0.04554413932267939
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.008729103350480907,
+          "r2_score": 0.8869563298782722,
+          "mae": 0.04554413932267939
+        }
+      }
+    ],
+    "4_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.003976632375270128,
+          "r2_score": 0.9484689831733704,
+          "mae": 0.0314176045358181
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.02232648991048336,
+          "r2_score": 0.8054417967796326,
+          "mae": 0.0844077467918396
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.0033459060359746218,
+          "r2_score": 0.9478635191917419,
+          "mae": 0.02705950289964676
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.0033757921773940325,
+          "r2_score": 0.939088761806488,
+          "mae": 0.027386430650949478
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.0058287885040044785,
+          "r2_score": 0.9237475991249084,
+          "mae": 0.038836732506752014
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.00630649970844388,
+          "r2_score": 0.8324075937271118,
+          "mae": 0.04155043512582779
+        }
+      }
+    ]
+  },
+  "3": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.008915661014276148,
+          "r2_score": 0.8883981026996756,
+          "mae": 0.04593477203690458
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.008915661014276148,
+          "r2_score": 0.8883981026996756,
+          "mae": 0.04593477203690458
+        }
+      }
+    ],
+    "3_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.003792132018133998,
+          "r2_score": 0.950859785079956,
+          "mae": 0.030942967161536217
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.023554448038339615,
+          "r2_score": 0.7947410941123962,
+          "mae": 0.08607377856969833
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.003298043506219983,
+          "r2_score": 0.9486092925071716,
+          "mae": 0.027452368289232254
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.003478521015495062,
+          "r2_score": 0.9372351765632629,
+          "mae": 0.02832575887441635
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.006349906325340271,
+          "r2_score": 0.9169303178787231,
+          "mae": 0.041093792766332626
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.005232237279415131,
+          "r2_score": 0.8609555959701538,
+          "mae": 0.038016196340322495
+        }
+      }
+    ]
+  },
+  "29": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007832046727687277,
+          "r2_score": 0.8937434568422535,
+          "mae": 0.04224076028646204
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007832046727687277,
+          "r2_score": 0.8937434568422535,
+          "mae": 0.04224076028646204
+        }
+      }
+    ],
+    "29_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.0042719971388578415,
+          "r2_score": 0.9446414709091187,
+          "mae": 0.031998567283153534
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.018000241369009018,
+          "r2_score": 0.8431417346000671,
+          "mae": 0.07309816032648087
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.0037097944878041744,
+          "r2_score": 0.942193329334259,
+          "mae": 0.02880365587770939
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.003527989611029625,
+          "r2_score": 0.9363425970077515,
+          "mae": 0.026583321392536163
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.005563295446336269,
+          "r2_score": 0.9272208213806152,
+          "mae": 0.03558362275362015
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006503846496343613,
+          "r2_score": 0.8271631598472595,
+          "mae": 0.040963687002658844
+        }
+      }
+    ]
+  },
+  "28": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007792365219335806,
+          "r2_score": 0.8950074594975908,
+          "mae": 0.042005670587420746
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007792365219335806,
+          "r2_score": 0.8950074594975908,
+          "mae": 0.042005670587420746
+        }
+      }
+    ],
+    "28_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.004225756507366896,
+          "r2_score": 0.9452406764030457,
+          "mae": 0.03150976076722145
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.018081707879900932,
+          "r2_score": 0.8424317836761475,
+          "mae": 0.07296936213970184
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.0035404786467552185,
+          "r2_score": 0.9448316097259521,
+          "mae": 0.027975507080554962
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.003504776395857334,
+          "r2_score": 0.9367614388465881,
+          "mae": 0.02644781395792961
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.005612591281533241,
+          "r2_score": 0.9265758991241455,
+          "mae": 0.035916589200496674
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.0062716370448470116,
+          "r2_score": 0.8333340287208557,
+          "mae": 0.04022875800728798
+        }
+      }
+    ]
+  },
+  "27": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007822851001537354,
+          "r2_score": 0.8947676318165652,
+          "mae": 0.042014451479186476
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007822851001537354,
+          "r2_score": 0.8947676318165652,
+          "mae": 0.042014451479186476
+        }
+      }
+    ],
+    "27_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.004127073101699352,
+          "r2_score": 0.9465194940567017,
+          "mae": 0.03147585317492485
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.018270818516612053,
+          "r2_score": 0.8407838344573975,
+          "mae": 0.07328372448682785
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.003570802276954055,
+          "r2_score": 0.9443591237068176,
+          "mae": 0.02811163105070591
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.003461643820628524,
+          "r2_score": 0.9375396966934204,
+          "mae": 0.026164384558796883
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.005595242138952017,
+          "r2_score": 0.9268028736114502,
+          "mae": 0.03593021258711815
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006294655613601208,
+          "r2_score": 0.8327223062515259,
+          "mae": 0.04013597220182419
+        }
+      }
+    ]
+  },
+  "26": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007895064775144463,
+          "r2_score": 0.8942759295114269,
+          "mae": 0.04222865724325377
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007895064775144463,
+          "r2_score": 0.8942759295114269,
+          "mae": 0.04222865724325377
+        }
+      }
+    ],
+    "26_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.004092927556484938,
+          "r2_score": 0.9469619393348694,
+          "mae": 0.031472790986299515
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.01868196576833725,
+          "r2_score": 0.8372009992599487,
+          "mae": 0.07492837309837341
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.0035683533642441034,
+          "r2_score": 0.9443972706794739,
+          "mae": 0.0278924610465765
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.0034148572012782097,
+          "r2_score": 0.938383936882019,
+          "mae": 0.02608533576130867
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.005564932711422443,
+          "r2_score": 0.9271993637084961,
+          "mae": 0.03556061536073685
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006292046047747135,
+          "r2_score": 0.8327916860580444,
+          "mae": 0.03997178003191948
+        }
+      }
+    ]
+  },
+  "25": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007975214104462232,
+          "r2_score": 0.892469207271773,
+          "mae": 0.042359446341654505
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007975214104462232,
+          "r2_score": 0.892469207271773,
+          "mae": 0.042359446341654505
+        }
+      }
+    ],
+    "25_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.004022692330181599,
+          "r2_score": 0.9478721022605896,
+          "mae": 0.03108842857182026
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.018831664696335793,
+          "r2_score": 0.8358964920043945,
+          "mae": 0.07509571313858032
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.003719442756846547,
+          "r2_score": 0.9420430064201355,
+          "mae": 0.028352243825793266
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.003403292503207922,
+          "r2_score": 0.9385925531387329,
+          "mae": 0.025973396375775337
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.005447766277939081,
+          "r2_score": 0.92873215675354,
+          "mae": 0.03514189273118973
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006630773656070232,
+          "r2_score": 0.8237901329994202,
+          "mae": 0.040956608951091766
+        }
+      }
+    ]
+  },
+  "24": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "640215d1-defb-4154-acd9-d3b158c664be"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.008006533599570074,
+          "r2_score": 0.8923357027130339,
+          "mae": 0.04209336426113961
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.008006533599570074,
+          "r2_score": 0.8923357027130339,
+          "mae": 0.04209336426113961
+        }
+      }
+    ],
+    "24_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.004038598854094744,
+          "r2_score": 0.9476659893989563,
+          "mae": 0.031004466116428375
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.01897481642663479,
+          "r2_score": 0.8346490859985352,
+          "mae": 0.07482106983661652
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.0036889691837131977,
+          "r2_score": 0.9425178170204163,
+          "mae": 0.02827375754714012
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.0034083505161106586,
+          "r2_score": 0.9385012984275818,
+          "mae": 0.025553226470947266
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.0054947431199252605,
+          "r2_score": 0.928117573261261,
+          "mae": 0.03516474366188049
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.0065787360072135925,
+          "r2_score": 0.825173020362854,
+          "mae": 0.04037276282906532
+        }
+      }
+    ]
+  },
+  "23": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007877142509249044,
+          "r2_score": 0.8945995136970576,
+          "mae": 0.04173223771348486
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007877142509249044,
+          "r2_score": 0.8945995136970576,
+          "mae": 0.04173223771348486
+        }
+      }
+    ],
+    "23_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.0038874908350408077,
+          "r2_score": 0.9496241211891174,
+          "mae": 0.03017079085111618
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.018739888444542885,
+          "r2_score": 0.8366962671279907,
+          "mae": 0.07420448213815689
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.003590318374335766,
+          "r2_score": 0.9440550208091736,
+          "mae": 0.02753586694598198
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.0033851300831884146,
+          "r2_score": 0.9389203190803528,
+          "mae": 0.025455176830291748
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.005506336688995361,
+          "r2_score": 0.9279659390449524,
+          "mae": 0.035600487142801285
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006288168951869011,
+          "r2_score": 0.8328946828842163,
+          "mae": 0.039456695318222046
+        }
+      }
+    ]
+  },
+  "22": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "640215d1-defb-4154-acd9-d3b158c664be"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.00782147670292705,
+          "r2_score": 0.8952136429766904,
+          "mae": 0.04181737465646948
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.00782147670292705,
+          "r2_score": 0.8952136429766904,
+          "mae": 0.04181737465646948
+        }
+      }
+    ],
+    "22_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.003989088349044323,
+          "r2_score": 0.9483075737953186,
+          "mae": 0.030935212969779968
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.018481995910406113,
+          "r2_score": 0.838943600654602,
+          "mae": 0.07382148504257202
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.0035590780898928642,
+          "r2_score": 0.9445418119430542,
+          "mae": 0.02756538800895214
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.003375485772266984,
+          "r2_score": 0.9390943050384521,
+          "mae": 0.02582685276865959
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.005546231754124165,
+          "r2_score": 0.9274440407752991,
+          "mae": 0.03574240580201149
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006242610048502684,
+          "r2_score": 0.8341054320335388,
+          "mae": 0.03951757401227951
+        }
+      }
+    ]
+  },
+  "21": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007838614695379064,
+          "r2_score": 0.8956826448302759,
+          "mae": 0.041549152535091935
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007838614695379064,
+          "r2_score": 0.8956826448302759,
+          "mae": 0.041549152535091935
+        }
+      }
+    ],
+    "21_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.003860392840579152,
+          "r2_score": 0.9499752521514893,
+          "mae": 0.030104443430900574
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.01877039298415184,
+          "r2_score": 0.8364304304122925,
+          "mae": 0.07433080673217773
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.0035060332156717777,
+          "r2_score": 0.9453683495521545,
+          "mae": 0.027396177873015404
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.003356275614351034,
+          "r2_score": 0.9394409656524658,
+          "mae": 0.025537563487887383
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.0055403090082108974,
+          "r2_score": 0.9275214672088623,
+          "mae": 0.03533115237951279
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006095115095376968,
+          "r2_score": 0.8380250334739685,
+          "mae": 0.038674939423799515
+        }
+      }
+    ]
+  },
+  "20": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007761125101606415,
+          "r2_score": 0.895074155538301,
+          "mae": 0.041855405798491556
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007761125101606415,
+          "r2_score": 0.895074155538301,
+          "mae": 0.041855405798491556
+        }
+      }
+    ],
+    "20_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.0038351009134203196,
+          "r2_score": 0.9503030180931091,
+          "mae": 0.030480239540338516
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.018125884234905243,
+          "r2_score": 0.842046856880188,
+          "mae": 0.07338657975196838
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.0035928296856582165,
+          "r2_score": 0.9440159201622009,
+          "mae": 0.028529366478323936
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.003412613645195961,
+          "r2_score": 0.9384244084358215,
+          "mae": 0.026203222572803497
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.00544738071039319,
+          "r2_score": 0.9287371635437012,
+          "mae": 0.03519732505083084
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006449748761951923,
+          "r2_score": 0.8286007642745972,
+          "mae": 0.040115904062986374
+        }
+      }
+    ]
+  },
+  "2": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.009060642895096796,
+          "r2_score": 0.8852751130743677,
+          "mae": 0.04631812150059136
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.009060642895096796,
+          "r2_score": 0.8852751130743677,
+          "mae": 0.04631812150059136
+        }
+      }
+    ],
+    "2_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.003942389506846666,
+          "r2_score": 0.9489126801490784,
+          "mae": 0.03174211084842682
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.023758167400956154,
+          "r2_score": 0.792965829372406,
+          "mae": 0.08562126755714417
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.003358095418661833,
+          "r2_score": 0.9476735591888428,
+          "mae": 0.027804948389530182
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.003563009900972247,
+          "r2_score": 0.9357107281684875,
+          "mae": 0.028796227648854256
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.006209949497133493,
+          "r2_score": 0.9187612533569336,
+          "mae": 0.040551841259002686
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.005743866320699453,
+          "r2_score": 0.847359299659729,
+          "mae": 0.0402219295501709
+        }
+      }
+    ]
+  },
+  "19": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007781544345095595,
+          "r2_score": 0.8954983219306611,
+          "mae": 0.04139003088868334
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007781544345095595,
+          "r2_score": 0.8954983219306611,
+          "mae": 0.04139003088868334
+        }
+      }
+    ],
+    "19_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.003712018020451069,
+          "r2_score": 0.9518979787826538,
+          "mae": 0.029230646789073944
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.018442969769239426,
+          "r2_score": 0.8392837047576904,
+          "mae": 0.07350233197212219
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.0036503004375845194,
+          "r2_score": 0.9431203603744507,
+          "mae": 0.027745449915528297
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.003366258228197694,
+          "r2_score": 0.9392608404159546,
+          "mae": 0.025591935962438583
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.005392162129282951,
+          "r2_score": 0.9294595718383789,
+          "mae": 0.03484218940138817
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006313898600637913,
+          "r2_score": 0.8322109580039978,
+          "mae": 0.03942732885479927
+        }
+      }
+    ]
+  },
+  "18": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "640215d1-defb-4154-acd9-d3b158c664be"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007707726505722083,
+          "r2_score": 0.8960101892183561,
+          "mae": 0.04145289394680482
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007707726505722083,
+          "r2_score": 0.8960101892183561,
+          "mae": 0.04145289394680482
+        }
+      }
+    ],
+    "18_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.0037401211448013783,
+          "r2_score": 0.9515337944030762,
+          "mae": 0.029593946412205696
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.018041066825389862,
+          "r2_score": 0.8427859544754028,
+          "mae": 0.07283172756433487
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.0037697255611419678,
+          "r2_score": 0.9412594437599182,
+          "mae": 0.02820892632007599
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.0033967155031859875,
+          "r2_score": 0.9387112855911255,
+          "mae": 0.025942401960492134
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.005372152663767338,
+          "r2_score": 0.9297213554382324,
+          "mae": 0.034810133278369904
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006315608974546194,
+          "r2_score": 0.8321654796600342,
+          "mae": 0.039842307567596436
+        }
+      }
+    ]
+  },
+  "17": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007650486642676272,
+          "r2_score": 0.8961203109174798,
+          "mae": 0.04132650385029425
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007650486642676272,
+          "r2_score": 0.8961203109174798,
+          "mae": 0.04132650385029425
+        }
+      }
+    ],
+    "17_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.0038339972961694,
+          "r2_score": 0.9503173232078552,
+          "mae": 0.029800785705447197
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.017685692757368088,
+          "r2_score": 0.845882773399353,
+          "mae": 0.07206925749778748
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.003785015782341361,
+          "r2_score": 0.941021203994751,
+          "mae": 0.028169717639684677
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.0034186728298664093,
+          "r2_score": 0.9383150935173035,
+          "mae": 0.02576410584151745
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.005326427519321442,
+          "r2_score": 0.9303194880485535,
+          "mae": 0.03460629656910896
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006419358775019646,
+          "r2_score": 0.8294084072113037,
+          "mae": 0.04044068604707718
+        }
+      }
+    ]
+  },
+  "16": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.00766902315162935,
+          "r2_score": 0.8974186005051139,
+          "mae": 0.04121812115277784
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.00766902315162935,
+          "r2_score": 0.8974186005051139,
+          "mae": 0.04121812115277784
+        }
+      }
+    ],
+    "16_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.0037179659120738506,
+          "r2_score": 0.9518209099769592,
+          "mae": 0.02930857054889202
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.01806829869747162,
+          "r2_score": 0.842548668384552,
+          "mae": 0.07258012890815735
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.0035621298011392355,
+          "r2_score": 0.9444942474365234,
+          "mae": 0.027016106992959976
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.003361132461577654,
+          "r2_score": 0.9393532872200012,
+          "mae": 0.025739189237356186
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.005563864018768072,
+          "r2_score": 0.9272133708000183,
+          "mae": 0.035906679928302765
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006010890938341618,
+          "r2_score": 0.8402632474899292,
+          "mae": 0.03855612128973007
+        }
+      }
+    ]
+  },
+  "15": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.00762895987186466,
+          "r2_score": 0.8968383303549697,
+          "mae": 0.04136587894120096
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.00762895987186466,
+          "r2_score": 0.8968383303549697,
+          "mae": 0.04136587894120096
+        }
+      }
+    ],
+    "15_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.0036347804125398397,
+          "r2_score": 0.9528988599777222,
+          "mae": 0.028869621455669403
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.01781681552529335,
+          "r2_score": 0.8447401523590088,
+          "mae": 0.0723523423075676
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.003761729458346963,
+          "r2_score": 0.9413840770721436,
+          "mae": 0.027919966727495193
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.0034529161639511585,
+          "r2_score": 0.937697172164917,
+          "mae": 0.026187462732195854
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.005248080939054489,
+          "r2_score": 0.9313444495201111,
+          "mae": 0.034999676048755646
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006288360338658094,
+          "r2_score": 0.8328896164894104,
+          "mae": 0.039854224771261215
+        }
+      }
+    ]
+  },
+  "14": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007670219271236826,
+          "r2_score": 0.8966661462545432,
+          "mae": 0.04160579899451214
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007670219271236826,
+          "r2_score": 0.8966661462545432,
+          "mae": 0.04160579899451214
+        }
+      }
+    ],
+    "14_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.0036546264309436083,
+          "r2_score": 0.9526416659355164,
+          "mae": 0.02907705493271351
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.018002977594733238,
+          "r2_score": 0.843117892742157,
+          "mae": 0.07280469685792923
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.003802473424002528,
+          "r2_score": 0.9407491683959961,
+          "mae": 0.02804594486951828
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.003476256038993597,
+          "r2_score": 0.9372760653495789,
+          "mae": 0.02644794061779976
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.005276259034872055,
+          "r2_score": 0.9309757947921753,
+          "mae": 0.03528435528278351
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006203414872288704,
+          "r2_score": 0.8351470232009888,
+          "mae": 0.03984355553984642
+        }
+      }
+    ]
+  },
+  "13": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007811840091833576,
+          "r2_score": 0.8944750264239628,
+          "mae": 0.0420265711461311
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007811840091833576,
+          "r2_score": 0.8944750264239628,
+          "mae": 0.0420265711461311
+        }
+      }
+    ],
+    "13_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.003768111579120159,
+          "r2_score": 0.9511711001396179,
+          "mae": 0.030042508617043495
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.01843138411641121,
+          "r2_score": 0.8393846750259399,
+          "mae": 0.07319032400846481
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.003851627930998802,
+          "r2_score": 0.9399832487106323,
+          "mae": 0.028472742065787315
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.0035037039779126644,
+          "r2_score": 0.9367808103561401,
+          "mae": 0.026768146082758904
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.005167399067431688,
+          "r2_score": 0.9323999285697937,
+          "mae": 0.0349186547100544
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006479538511484861,
+          "r2_score": 0.8278091549873352,
+          "mae": 0.04113602265715599
+        }
+      }
+    ]
+  },
+  "12": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007634894813032691,
+          "r2_score": 0.8958411221267102,
+          "mae": 0.04204563434739701
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007634894813032691,
+          "r2_score": 0.8958411221267102,
+          "mae": 0.04204563434739701
+        }
+      }
+    ],
+    "12_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.0039023286662995815,
+          "r2_score": 0.949431836605072,
+          "mae": 0.030874786898493767
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.017522063106298447,
+          "r2_score": 0.8473086953163147,
+          "mae": 0.07101436704397202
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.003843047423288226,
+          "r2_score": 0.9401169419288635,
+          "mae": 0.028683459386229515
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.0035934250336140394,
+          "r2_score": 0.9351619482040405,
+          "mae": 0.027486562728881836
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.00517044635489583,
+          "r2_score": 0.932360053062439,
+          "mae": 0.035411372780799866
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006471613887697458,
+          "r2_score": 0.8280197381973267,
+          "mae": 0.0420413576066494
+        }
+      }
+    ]
+  },
+  "11": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.0076672304131990025,
+          "r2_score": 0.8957929633358892,
+          "mae": 0.04156275222591252
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.0076672304131990025,
+          "r2_score": 0.8957929633358892,
+          "mae": 0.04156275222591252
+        }
+      }
+    ],
+    "11_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.0038527792785316706,
+          "r2_score": 0.9500738978385925,
+          "mae": 0.03021998330950737
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.017767714336514473,
+          "r2_score": 0.8451679944992065,
+          "mae": 0.07105574011802673
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.0038943318650126457,
+          "r2_score": 0.9393178224563599,
+          "mae": 0.02840065211057663
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.0035278915893286467,
+          "r2_score": 0.9363443851470947,
+          "mae": 0.026622885838150978
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.00514972722157836,
+          "r2_score": 0.9326311349868774,
+          "mae": 0.03487010672688484
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.0064393579959869385,
+          "r2_score": 0.8288769721984863,
+          "mae": 0.04137663543224335
+        }
+      }
+    ]
+  },
+  "10": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007715183658144678,
+          "r2_score": 0.8950404927846995,
+          "mae": 0.04205664372517587
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.007715183658144678,
+          "r2_score": 0.8950404927846995,
+          "mae": 0.04205664372517587
+        }
+      }
+    ],
+    "10_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.0038610862102359533,
+          "r2_score": 0.9499662518501282,
+          "mae": 0.030200820416212082
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.017918633297085762,
+          "r2_score": 0.8438528776168823,
+          "mae": 0.07166267931461334
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.0038923220708966255,
+          "r2_score": 0.9393491744995117,
+          "mae": 0.028683476150035858
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.0035243916790932417,
+          "r2_score": 0.9364075064659119,
+          "mae": 0.027004176750779152
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.005124379880726337,
+          "r2_score": 0.9329627156257629,
+          "mae": 0.035295721143484116
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006545728072524071,
+          "r2_score": 0.8260501623153687,
+          "mae": 0.042215317487716675
+        }
+      }
+    ]
+  },
+  "1": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.010050817198969523,
+          "r2_score": 0.870934182259332,
+          "mae": 0.05137636128370916
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.010050817198969523,
+          "r2_score": 0.870934182259332,
+          "mae": 0.05137636128370916
+        }
+      }
+    ],
+    "1_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.00419268012046814,
+          "r2_score": 0.9456692934036255,
+          "mae": 0.03390921279788017
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.02662981115281582,
+          "r2_score": 0.7679416537284851,
+          "mae": 0.09703197330236435
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.003480796469375491,
+          "r2_score": 0.9457616209983826,
+          "mae": 0.02935118041932583
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.0037777575198560953,
+          "r2_score": 0.9318358898162842,
+          "mae": 0.03158162161707878
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.006162764970213175,
+          "r2_score": 0.9193785190582275,
+          "mae": 0.04201430454850197
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.007260635495185852,
+          "r2_score": 0.8070518374443054,
+          "mae": 0.04722888022661209
+        }
+      }
+    ]
+  },
+  "0": {
+    "train_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc"
+        ]
+      }
+    ],
+    "eval_participating_clients": [
+      {
+        "node": "server",
+        "value": [
+          "deba309a-1cd6-4318-8147-69bdf6b32a84",
+          "1b3e8b36-22ef-45ad-9b2d-0de16c134e07",
+          "04a04f3d-ac01-441b-8df5-70981736d4ba",
+          "f4f30b13-4e50-44ea-b015-ef093baffddc",
+          "640215d1-defb-4154-acd9-d3b158c664be",
+          "6898359f-dc91-48ba-838f-c0d557475f6f"
+        ]
+      }
+    ],
+    "agg_eval_without_dropout_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.014264055669276157,
+          "r2_score": 0.83195228731889,
+          "mae": 0.06220110850234983
+        }
+      }
+    ],
+    "agg_eval_results": [
+      {
+        "node": "server",
+        "value": {
+          "loss": 0.014264055669276157,
+          "r2_score": 0.83195228731889,
+          "mae": 0.06220110850234983
+        }
+      }
+    ],
+    "0_eval_local": [
+      {
+        "node": "client_5",
+        "value": {
+          "loss": 0.005036173854023218,
+          "r2_score": 0.9347389340400696,
+          "mae": 0.04062662646174431
+        }
+      },
+      {
+        "node": "client_4",
+        "value": {
+          "loss": 0.04234782233834267,
+          "r2_score": 0.6309712529182434,
+          "mae": 0.12381379306316376
+        }
+      },
+      {
+        "node": "client_3",
+        "value": {
+          "loss": 0.004609628114849329,
+          "r2_score": 0.9281719923019409,
+          "mae": 0.04059388488531113
+        }
+      },
+      {
+        "node": "client_2",
+        "value": {
+          "loss": 0.004806338343769312,
+          "r2_score": 0.9132766723632812,
+          "mae": 0.03998035192489624
+        }
+      },
+      {
+        "node": "client_1",
+        "value": {
+          "loss": 0.008464851416647434,
+          "r2_score": 0.8892625570297241,
+          "mae": 0.05196860060095787
+        }
+      },
+      {
+        "node": "client_0",
+        "value": {
+          "loss": 0.006417545489966869,
+          "r2_score": 0.8294565677642822,
+          "mae": 0.04431552439928055
+        }
+      }
+    ]
+  },
+  "-1": {
+    "client_mapping": [
+      {
+        "node": "server",
+        "value": [
+          [
+            "0",
+            "1b3e8b36-22ef-45ad-9b2d-0de16c134e07"
+          ],
+          [
+            "1",
+            "6898359f-dc91-48ba-838f-c0d557475f6f"
+          ],
+          [
+            "2",
+            "640215d1-defb-4154-acd9-d3b158c664be"
+          ],
+          [
+            "3",
+            "deba309a-1cd6-4318-8147-69bdf6b32a84"
+          ],
+          [
+            "4",
+            "f4f30b13-4e50-44ea-b015-ef093baffddc"
+          ],
+          [
+            "5",
+            "04a04f3d-ac01-441b-8df5-70981736d4ba"
+          ]
+        ]
+      }
+    ],
+    "data_prep_count_train_samples": [
+      {
+        "node": "client_5",
+        "value": 6720
+      },
+      {
+        "node": "client_4",
+        "value": 23318
+      },
+      {
+        "node": "client_3",
+        "value": 10214
+      },
+      {
+        "node": "client_2",
+        "value": 21235
+      },
+      {
+        "node": "client_1",
+        "value": 23318
+      },
+      {
+        "node": "client_0",
+        "value": 20160
+      }
+    ],
+    "data_prep_count_test_samples": [
+      {
+        "node": "client_5",
+        "value": 2880
+      },
+      {
+        "node": "client_4",
+        "value": 9994
+      },
+      {
+        "node": "client_3",
+        "value": 4378
+      },
+      {
+        "node": "client_2",
+        "value": 9101
+      },
+      {
+        "node": "client_1",
+        "value": 9994
+      },
+      {
+        "node": "client_0",
+        "value": 8640
+      }
+    ]
+  }
+}
