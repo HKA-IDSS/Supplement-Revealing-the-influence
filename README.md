@@ -1,5 +1,5 @@
 # Artifacts for revealing the influence of participant failures
-This repository provides additional information about the experiments of the paper " ".
+This repository provides additional information about the experiments of the paper "Revealing the influence of participant failures on model quality in cross-silo Federated Learning".
 
 It consists of the following artifacts:
 - Data Distributions for the different datasets
