@@ -1,20 +1,17 @@
 # Artifacts for revealing the influence of participant failures
-This repository provides additional information about the experiments of the paper " ".
+This repository provides additional information about the experiments of the paper.
 
 It consists of the following artifacts:
 - Data Distributions for the different datasets
 - Implementation of the data partitioning method
 - Implementation details of the model architectures
-- Extensive logs of the experiments
 
 ## Structure
 
 | Directory | Description|
 |----------|----------|
 | .data | Contains information about the datasets |
-| .experiments | Contains information about the experiments |
-| .experiments/images | Resulting visualizations from the experiments |
-| .experiments/logs | Logs of all the experiments that were conducted |
+| .images | Contains images of data distributions |
 | .models | Contains implementation details for different ML models |
 | .partitioner | Contains implementation details for the data partitioner |
 

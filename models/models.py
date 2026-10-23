@@ -11,11 +11,49 @@ def _set_seed(seed: int):
     os.environ["OMP_NUM_THREADS"] = "1"
     os.environ["TF_NUM_INTRAOP_THREADS"] = "1"
     os.environ["TF_NUM_INTEROP_THREADS"] = "1"
-    os.environ['PYTHONHASHSEED'] = '24'
-    tf.random.set_seed(24)
-    np.random.seed(24)
-    tf.keras.utils.set_random_seed(24)
+    os.environ['PYTHONHASHSEED'] = f"{seed}"
+    tf.random.set_seed(seed)
+    np.random.seed(seed)
+    tf.keras.utils.set_random_seed(seed)
     tf.config.experimental.enable_op_determinism()
+
+def _residual_block(x, filters: int, stride: int, seed: int):
+
+    shortcut = x
+
+    y = layers.Conv2D(
+        filters,
+        3,
+        strides=stride,
+        padding="same",
+        use_bias=False,
+        kernel_initializer=tf.keras.initializers.GlorotUniform(seed=seed),
+    )(x)
+    y = layers.BatchNormalization()(y)
+    y = layers.Activation("relu")(y)
+
+    y = layers.Conv2D(
+        filters,
+        3,
+        padding="same",
+        use_bias=False,
+        kernel_initializer=tf.keras.initializers.GlorotUniform(seed=seed + 1),
+    )(y)
+    y = layers.BatchNormalization()(y)
+
+    if stride != 1 or shortcut.shape[-1] != filters:
+        shortcut = layers.Conv2D(
+            filters,
+            1,
+            strides=stride,
+            use_bias=False,
+            kernel_initializer=tf.keras.initializers.GlorotUniform(seed=seed + 2),
+        )(shortcut)
+        shortcut = layers.BatchNormalization()(shortcut)
+
+    y = layers.Add()([y, shortcut])
+    return layers.Activation("relu")(y)
+
 
 def build_tabtransformer_model(categorical_columns, numerical_columns, num_categories, embed_dim=32, num_heads=4, ff_dim=64, transformer_blocks=2, activation="softmax", num_classes=7, seed=24):
     
@@ -93,6 +131,37 @@ def build_tabtransformer_model(categorical_columns, numerical_columns, num_categ
     model = keras.Model(inputs=inputs, outputs=output, seed=seed)
     return model
 
+def _build_cifar_resnet(num_classes: int, n: int, name: str, seed: int):
+    # Build a ResNet32 dataset for CIFAR-10, CIFAR-100 or CINIC-10
+
+    _set_seed(seed=seed)
+    inputs = layers.Input(shape=(32, 32, 3))
+
+    x = layers.Conv2D(
+        16,
+        3,
+        padding="same",
+        use_bias=False,
+        kernel_initializer=tf.keras.initializers.GlorotUniform(seed=seed),
+    )(inputs)
+    x = layers.BatchNormalization()(x)
+    x = layers.Activation("relu")(x)
+
+    block_seed = seed + 3
+    for filters, first_stride in ((16, 1), (32, 2), (64, 2)):
+        for block in range(n):
+            x = _residual_block(x, filters, first_stride if block == 0 else 1, block_seed)
+            block_seed += 3
+
+    x = layers.GlobalAveragePooling2D()(x)
+    outputs = layers.Dense(
+        num_classes,
+        activation="softmax",
+        kernel_initializer=tf.keras.initializers.GlorotUniform(seed=block_seed),
+    )(x)
+
+    return models.Model(inputs, outputs, name=name)
+
 class MLModel():
     @staticmethod
     def get_model():
@@ -115,23 +184,14 @@ class CIFAR10(MLModel):
             layers.Dense(10, activation='softmax')
         ])
         return model
-    
-class CIFAR10ResNet(MLModel):
-    @staticmethod
-    def get_model():
-        seed = 24
-        _set_seed(seed=seed)
-        
-        model = tf.keras.applications.ResNet50V2(weights=None, input_shape=(32, 32, 3),
-        classifier_activation="softmax", classes=10)
-        return model
+
 
 class CIFAR100(MLModel):
     
     @staticmethod
-    def get_model():
-        seed = 24
-        #_set_seed(seed=seed)
+    def get_model(seed:int):
+       
+        _set_seed(seed=seed)
         
         model = models.Sequential()
  
@@ -158,17 +218,6 @@ class CIFAR100(MLModel):
         model.add(layers.Dense(128, activation='relu'))
         model.add(layers.BatchNormalization())
         model.add(layers.Dense(100, activation='softmax'))
-        return model
-
-class CIFAR100ResNet(MLModel):
-    
-    @staticmethod
-    def get_model():
-        seed = 24
-        _set_seed(seed=seed)
-        
-        model = tf.keras.applications.ResNet50V2(weights=None, input_shape=(32, 32, 3),
-        classifier_activation="softmax", classes=100)
         return model
 
 # --- Tabular Models ---
